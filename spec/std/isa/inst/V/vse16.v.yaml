@@ -6,9 +6,8 @@
 $schema: "inst_schema.json#"
 kind: instruction
 name: vse16.v
-long_name: No synopsis available
-description: |
-  No description available.
+long_name: 16-bit unit-stride store
+description: Store elements from vs3 contiguously in memory starting from the base effective address found in xs1.
 definedBy:
   extension:
     name: Zvl32b

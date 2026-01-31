@@ -6,9 +6,8 @@
 $schema: "inst_schema.json#"
 kind: instruction
 name: vle8.v
-long_name: No synopsis available
-description: |
-  No description available.
+long_name: 8-bit unit-stride load
+description: Access elements stored contiguously in memory starting from the base effective address found in xs1, and load into vd.
 definedBy:
   extension:
     name: Zvl32b
