@@ -32,6 +32,7 @@ sorbet
 coverage
 .sorbet-cache
 .project
+.docker-home/
 
 # emacs backup files
 *~
