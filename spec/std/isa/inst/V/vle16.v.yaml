@@ -40,7 +40,7 @@ operation(): |
       sext(read_memory<16>(virtual_address, $encoding), 16),
       v[vd][start_bit_pos-1:0]
     };
-    virtual_address = virtual_address + 1;
+    virtual_address = virtual_address + 2;
   }
 
 # SPDX-SnippetBegin

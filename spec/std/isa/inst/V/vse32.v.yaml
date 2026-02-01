@@ -36,7 +36,7 @@ operation(): |
     U32 start_bit_pos = (CSR[vstart].VALUE + i) * 32;
     U32 end_bit_pos = start_bit_pos + 31;
     write_memory<32>(virtual_address, v[vs3][end_bit_pos:start_bit_pos], $encoding);
-    virtual_address = virtual_address + 1;
+    virtual_address = virtual_address + 4;
   }
 
 # SPDX-SnippetBegin
