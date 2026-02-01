@@ -42603,7 +42603,7 @@ Included in::
 == vle16.v
 
 Synopsis::
-No synopsis available
+Vector 16-bit unit-stride load
 
 Base::
 
@@ -42625,7 +42625,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 16-bit values from memory to vector registers.
 
 
 Decode Variables::
@@ -42707,7 +42707,7 @@ Included in::
 == vle32.v
 
 Synopsis::
-No synopsis available
+Vector 32-bit unit-stride load
 
 Base::
 
@@ -42729,7 +42729,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 32-bit values from memory to vector registers.
 
 
 Decode Variables::
@@ -42811,7 +42811,7 @@ Included in::
 == vle64.v
 
 Synopsis::
-No synopsis available
+Vector 64-bit unit-stride load
 
 Base::
 
@@ -42833,7 +42833,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 64-bit values from memory to vector registers.
 
 
 Decode Variables::
@@ -42915,7 +42915,7 @@ Included in::
 == vle8.v
 
 Synopsis::
-No synopsis available
+Vector 8-bit unit-stride load
 
 Base::
 
@@ -42937,7 +42937,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 8-bit values from memory to vector registers.
 
 
 Decode Variables::
@@ -42956,7 +42956,7 @@ Included in::
 |===
 | Extension | Version
 
-| *Zvl32b*
+| *V*
 | any
 |===
 
@@ -58337,7 +58337,7 @@ Included in::
 == vse16.v
 
 Synopsis::
-No synopsis available
+Vector 16-bit unit-stride store
 
 Base::
 
@@ -58359,7 +58359,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 16-bit values from vector registers to memory.
 
 
 Decode Variables::
@@ -58389,7 +58389,7 @@ Included in::
 == vse32.v
 
 Synopsis::
-No synopsis available
+Vector 32-bit unit-stride store
 
 Base::
 
@@ -58411,7 +58411,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 32-bit values from vector registers to memory.
 
 
 Decode Variables::
@@ -58441,7 +58441,7 @@ Included in::
 == vse64.v
 
 Synopsis::
-No synopsis available
+Vector 64-bit unit-stride store
 
 Base::
 
@@ -58463,7 +58463,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 64-bit values from vector registers to memory.
 
 
 Decode Variables::
@@ -58493,7 +58493,7 @@ Included in::
 == vse8.v
 
 Synopsis::
-No synopsis available
+Vector 8-bit unit-stride store
 
 Base::
 
@@ -58515,7 +58515,7 @@ Encoding::
 ....
 
 Description::
-No description available.
+Move 8-bit values from vector registers to memory.
 
 
 Decode Variables::
