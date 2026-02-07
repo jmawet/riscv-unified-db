@@ -8,7 +8,7 @@ kind: instruction
 name: vse32.v
 long_name: Vector 32-bit unit-stride store
 description: |
-  Move 32-bit values from vector registers to memory.
+  Stores 32-bit elements from vector register vs3 to memory starting at address in xs1 register, using vector mask vm. The effective element width is 32 bits regardless of SEW setting.
 definedBy:
   extension:
     name: Zvl32b

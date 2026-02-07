@@ -8,7 +8,7 @@ kind: instruction
 name: vle64.v
 long_name: Vector 64-bit unit-stride load
 description: |
-  Move 64-bit values from memory to vector registers.
+  Loads 64-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 64 bits regardless of SEW setting.
 definedBy:
   extension:
     name: Zvl32b

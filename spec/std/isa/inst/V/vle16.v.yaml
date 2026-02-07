@@ -8,7 +8,7 @@ kind: instruction
 name: vle16.v
 long_name: Vector 16-bit unit-stride load
 description: |
-  Move 16-bit values from memory to vector registers.
+  Loads 16-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 16 bits regardless of SEW setting.
 definedBy:
   extension:
     name: Zvl32b

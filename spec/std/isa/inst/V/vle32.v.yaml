@@ -8,7 +8,7 @@ kind: instruction
 name: vle32.v
 long_name: Vector 32-bit unit-stride load
 description: |
-  Move 32-bit values from memory to vector registers.
+  Loads 32-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 32 bits regardless of SEW setting.
 definedBy:
   extension:
     name: Zvl32b
