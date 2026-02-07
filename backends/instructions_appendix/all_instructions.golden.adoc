@@ -42629,11 +42629,7 @@ Included in::
 == vle16.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 16-bit unit-stride load
-=======
-Vector load 16-bit elements
->>>>>>> main
 
 Base::
 
@@ -42655,11 +42651,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 16-bit values from memory to vector registers.
-=======
 Loads 16-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 16 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -42741,11 +42733,7 @@ Included in::
 == vle32.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 32-bit unit-stride load
-=======
-Vector load 32-bit elements
->>>>>>> main
 
 Base::
 
@@ -42767,11 +42755,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 32-bit values from memory to vector registers.
-=======
 Loads 32-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 32 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -42853,11 +42837,7 @@ Included in::
 == vle64.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 64-bit unit-stride load
-=======
-Vector load 64-bit elements
->>>>>>> main
 
 Base::
 
@@ -42879,11 +42859,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 64-bit values from memory to vector registers.
-=======
 Loads 64-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 64 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -42987,11 +42963,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 8-bit values from memory to vector registers.
-=======
 Loads 8-bit elements from memory starting at address in xs1 register, using vector mask vm, and stores results in vector register vd. The effective element width is 8 bits regardless of SEW setting. Supports vector masking and follows vector tail policy.
->>>>>>> main
 
 
 Decode Variables::
@@ -58391,11 +58363,7 @@ Included in::
 == vse16.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 16-bit unit-stride store
-=======
-Vector store 16-bit elements
->>>>>>> main
 
 Base::
 
@@ -58417,11 +58385,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 16-bit values from vector registers to memory.
-=======
 Stores 16-bit elements from vector register vs3 to memory starting at address in xs1 register, using vector mask vm. The effective element width is 16 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -58451,11 +58415,7 @@ Included in::
 == vse32.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 32-bit unit-stride store
-=======
-Vector store 32-bit elements
->>>>>>> main
 
 Base::
 
@@ -58477,11 +58437,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 32-bit values from vector registers to memory.
-=======
 Stores 32-bit elements from vector register vs3 to memory starting at address in xs1 register, using vector mask vm. The effective element width is 32 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -58511,11 +58467,7 @@ Included in::
 == vse64.v
 
 Synopsis::
-<<<<<<< HEAD
 Vector 64-bit unit-stride store
-=======
-Vector store 64-bit elements
->>>>>>> main
 
 Base::
 
@@ -58537,11 +58489,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 64-bit values from vector registers to memory.
-=======
 Stores 64-bit elements from vector register vs3 to memory starting at address in xs1 register, using vector mask vm. The effective element width is 64 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
@@ -58593,11 +58541,7 @@ Encoding::
 ....
 
 Description::
-<<<<<<< HEAD
-Move 8-bit values from vector registers to memory.
-=======
 Stores 8-bit elements from vector register vs3 to memory starting at address in xs1 register, using vector mask vm. The effective element width is 8 bits regardless of SEW setting.
->>>>>>> main
 
 
 Decode Variables::
