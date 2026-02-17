@@ -1,6 +1,5 @@
 .bundle
 .python
-.singularity
 .antora
 .home
 .yardoc
@@ -32,7 +31,7 @@ sorbet
 coverage
 .sorbet-cache
 .project
-.docker-home/
+.docker-home
 
 # emacs backup files
 *~
