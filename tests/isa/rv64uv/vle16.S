@@ -25,7 +25,7 @@ RVTEST_CODE_BEGIN
 # Load 4-bytes from result into x2 to compare with expected value
 
   TEST_CASE(1, x2, 0xFFFFffffFFFF2d2c, \
-    vsetivli x6, 2, e16, m1; \
+    vsetivli x6, 1, e16, m1; \
     la      x5, input; \
     vle16.v  v2, (x5); \
     la      x5, result; \

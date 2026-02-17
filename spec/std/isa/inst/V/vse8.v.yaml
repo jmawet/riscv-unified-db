@@ -30,6 +30,10 @@ access:
 data_independent_timing: false
 operation(): |
 
+  if (VECTOR_LS_MISALIGNED_LEGAL == false) {
+    unpredictable("Implementations should raise address misaligned exception");
+  }
+
   XReg virtual_address = X[xs1];
   # "A simple in-order implementation can ignore the settings and simply execute all vector instructions using the undisturbed policy"
   for (U32 i = 0; i < CSR[vl].VALUE; i++) {
