@@ -42982,7 +42982,7 @@ Included in::
 |===
 | Extension | Version
 
-| *V*
+| *Zvl32b*
 | any
 |===
 
