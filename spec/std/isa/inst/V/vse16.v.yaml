@@ -30,7 +30,7 @@ access:
 data_independent_timing: false
 operation(): |
 
-  if (VECTOR_LS_MISALIGNED_LEGAL == false) {
+  if (!VECTOR_LS_MISALIGNED_LEGAL) {
     unpredictable("Implementations should raise address misaligned exception");
   }
 
