@@ -35,7 +35,7 @@ operation(): |
   }
 
   XReg virtual_address = X[xs1];
-  # "A simple in-order implementation can ignore the settings and simply execute all vector instructions using the undisturbed policy"
+  # Per RISC-V ISA: "A simple in-order implementation can ignore the settings and simply execute all vector instructions using the undisturbed policy"
   for (U32 i = 0; i < CSR[vl].VALUE; i++) {
     U32 start_bit_pos = (CSR[vstart].VALUE + i) * 16;
     U32 end_bit_pos = start_bit_pos + 15;
