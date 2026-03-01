@@ -44,7 +44,7 @@ operation(): |
     } else {
       v[vd] = {
         v[vd][VLEN-1:end_bit_pos + 1],
-        sext(read_memory<16>(virtual_address, $encoding), 16),
+        read_memory<16>(virtual_address, $encoding),
         v[vd][start_bit_pos-1:0]
       };
     }
